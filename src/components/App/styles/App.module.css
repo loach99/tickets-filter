@@ -1,11 +1,14 @@
 .app{
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     gap: 15px;
     padding: 15px;
 }
+
 .ticket_container{
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    gap: 15px
+    gap: 15px;
 }

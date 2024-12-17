@@ -1,51 +1,65 @@
 .ticket_container{
+    display: -ms-flexbox; 
     display: flex;
-    width: fit-content;
+    width: 100%;
     align-items: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 100%;
 }
+
 .ticket_header{
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     border-right: 1px solid #ddd;
     padding: 16px 32px;
+    margin-bottom: 10px;
 }
+
 .ticket_logo>img{
     width: 150px;
 }
+
 .ticket_body{
+    display: -ms-flexbox;
     display: flex;
-    gap: 10px;
     padding: 16px 32px;
+    margin-left: 10px;
 }
+
 .ticket_info{
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
+
 .ticket_info_item{
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    margin-bottom: 5px;
 }
+
 .ticket_time{
     font-weight: 600;
     font-size: 42px;
     color: #565656;
 }
+
 .ticket_airport>span{
     color: #717171;
     font-weight: 500;
 }
+
 .ticket_airport>div{
     color: #717171;
     font-weight: 500;
     font-size: 14px;
 }
+
 .stops{
     color: #717171;
     font-weight: 500;
