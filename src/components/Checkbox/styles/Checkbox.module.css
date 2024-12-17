@@ -1,0 +1,44 @@
+/* Скрыть стандартный чекбокс */
+.custom_checkbox input {
+    display: none;
+  }
+  
+  /* Стили для кастомного чекбокса */
+  .custom_checkbox .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5e9ae9;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Стили для состояния чекбокса, когда он выбран */
+  .custom_checkbox input:checked + .checkbox {
+    background-color: #ffffff; /* Зеленый фон */
+    border-color: #5e9ae9;
+  }
+  
+  /* Индикатор галочки в чекбоксе */
+  .custom_checkbox input:checked + .checkbox::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 6px;
+    height: 10px;
+    border: solid #5e9ae9;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  /* Стили для метки */
+  .custom_checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

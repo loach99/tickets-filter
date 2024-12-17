@@ -1,0 +1,27 @@
+.filter_container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.filter>span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #525252;
+    padding: 10px 0;
+    display: block;
+}
+
+.filter{
+
+}
+.checkbox_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
